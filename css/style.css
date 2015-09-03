@@ -1,0 +1,10 @@
+body {
+  background-color: AliceBlue;
+}
+h1 {
+  font-size: 75px;
+  margin-bottom: 30px;
+}
+p { 
+  font-family: sans-serif;
+}
