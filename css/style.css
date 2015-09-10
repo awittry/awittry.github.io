@@ -25,3 +25,6 @@ body {
 .project{
 	background-color: #C0C0C0;
 }
+.border{
+	border: 5px solid #A0A0A0;
+}
