@@ -20,11 +20,14 @@ table {
 body {
 	background-color: #E8E8E8;
   font-family: georgia, serif;
-  font-size: 16px;
+  font-size: 16px
+  width: 250px;
 }
 .project{
-	background-color: #C0C0C0;
+	background-color: #C0C0C0
+	width: 250px;
 }
 .border{
-	border: 5px solid #A0A0A0;
+	border: 5px solid #A0A0A0
+	width: 250px;
 }
