@@ -1,6 +1,6 @@
 body{
 	width: 770px;
-	background-color: #E8E8E8;
+	background-color: #F2F2F2;
 	font-family: georgia, serif;
 	font-size: 16px;
 	margin-top: 50px;
@@ -9,19 +9,28 @@ body{
 }
 .title{
 	font-weight: bold;
+	font-size: 30px;
+	margin-bottom: 15px;
+}
+.subhead {
+	font-weight: bold;
+}
+.container1 {
+
 }
 .container{
 	margin: auto;
 	width: 750px;
-	background-color: #D0D0D0;
+	background-color: #F2F2F2;
 	padding: 10px;
 	line-height: 20px;
 	margin-top: 15px;
-	border: 10px solid #707070;
-}
-.border{
-	border: 3px solid #888888;
+	border: 7px solid black;
+	margin-left: -10px;
 }
 .project{
 	margin-bottom: 10px;
+}
+img {
+	margin-left: 70px;
 }
