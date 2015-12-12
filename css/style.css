@@ -15,8 +15,8 @@ body{
 .subhead {
 	font-weight: bold;
 }
-.container1 {
-
+.picture {
+	margin-top: 10px;
 }
 .container{
 	margin: auto;
@@ -33,4 +33,43 @@ body{
 }
 img {
 	margin-left: 70px;
+}
+@media (max-width: 2000px) {
+	.show-desktop {
+		display: block;
+	}
+	.show-tablet {
+		display: none;
+	}
+	.show-mobile {
+		display: none;
+	}
+}
+@media (max-width: 1000px) {
+	.show-desktop {
+		display: none;
+	}
+	.show-tablet {
+		display: block;
+	}
+	.show-mobile {
+		display: none;
+	}
+	body {
+		background-color: #D8D8D8;
+	}
+}
+@media (max-width: 600px) {
+	.show-desktop {
+		display: none;
+	}
+	.show-tablet {
+		display: none;
+	}
+	.show-mobile {
+		display: block;
+	}
+	body {
+		background-color: #F2F2F2;
+	}	
 }
